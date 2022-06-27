@@ -36,3 +36,127 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: cursive;
+  text-align: center;
+}
+body {
+  background-color: #eeeeee;
+  font-family: cursive;
+}
+.Header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 10px 30px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 35px;
+}
+/*.div-text {
+   background-color: whitesmoke;
+
+  font-size: 15px;
+  font-weight: normal;
+  border: 2px solid #f5ba13;
+  border-radius: 20px;
+  width: 80%;
+  height: 20%;
+  margin: 10px ;
+  padding: 10px 10px 10px 15px;
+  font-family: cursive;
+  font-size: 20px;
+  color: #34b3f1; */
+  /* margin: 20px;
+  padding: 10px; 
+}*/
+
+.textarea {
+  background-color: #eeeeee;
+  text-align: left;
+  user-select: text;
+  font-size: 15px;
+  font-weight: normal;
+  border: none;
+  border: 2px solid #f5ba13;
+  border-radius: 20px;
+  width: 60%;
+  resize: none;
+  /* height: 20%; */
+  margin-top: 30px;
+  padding: 10px 10px 10px 15px;
+  font-family: cursive;
+  font-size: 20px;
+  color: #000000;
+}
+.textarea:focus {
+  border: 2px solid rgb(184, 183, 183);
+  outline: none !important;
+}
+
+button {
+  position: relative;
+  background-color: #f5ba13;
+  color: #000000;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 18px;
+  margin: 5px;
+}
+.div-text-btn {
+  margin: 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+::placeholder {
+  color: #414141;
+  font-size: 16px;
+}
+
+.todo-list {
+  border-radius: 5px;
+  /* background-color: violet; */
+}
+
+/* .todo { */
+/* background-color: rgb(250, 213, 143); */
+/* width: 80%;
+  margin: 5px;
+  padding: 5px; */
+
+.todo-para {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-family: cursive;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  font-size: 22px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  /* font-size: 1.1em; */
+}
+.todo-btn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px;
+  font-size: 16px;
+  width: 60px;
+  height: 25px;
+  /* float: left; */
+}
